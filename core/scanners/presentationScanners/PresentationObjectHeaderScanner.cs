@@ -23,7 +23,7 @@ namespace AccessibilityReportForDocuments.tests.core.scanners.presentationScanne
             Console.SetOut(output);
 
             // Given
-            PresentationTableHeaderScanner scanner = new(Context.ContextLogger());
+            TableHeaderScanner scanner = new(Context.ContextLogger());
             string document = "C:\\Users\\v-karladal\\source\\repos\\AccessibilityReportForDocumentsTests\\mocks\\presentation table header and not.pptx";
 
             // When
@@ -33,7 +33,7 @@ namespace AccessibilityReportForDocuments.tests.core.scanners.presentationScanne
 
             // Then            
             this.output.WriteLine(output.ToString());
-            Assert.Equal(1, result.Count);
+            Assert.Single(result);
             Assert.Equal("Table 3", result[0].ObjectName);
         }       
     }

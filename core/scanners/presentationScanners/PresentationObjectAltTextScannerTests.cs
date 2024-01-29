@@ -13,7 +13,7 @@ namespace AccessibilityReportForDocuments.tests.core.scanners.presentationScanne
         public void ScanPresentationImageAltTextScannerErrorsFound()
         {
             // Given
-            PresentationImageAltTextScanner scanner = new(Context.ContextLogger());
+            ImageAltTextScanner scanner = new(Context.ContextLogger());
             string document = "C:\\Users\\v-karladal\\source\\repos\\AccessibilityReportForDocumentsTests\\mocks\\presentation with no alt text for objects.pptx";
 
             // When
@@ -33,7 +33,7 @@ namespace AccessibilityReportForDocuments.tests.core.scanners.presentationScanne
         public void ScanPresentationImageAltTextScannerNoErrorsFound()
         {
             // Given
-            PresentationImageAltTextScanner scanner = new(Context.ContextLogger());
+            ImageAltTextScanner scanner = new(Context.ContextLogger());
             string document = "C:\\Users\\v-karladal\\source\\repos\\AccessibilityReportForDocumentsTests\\mocks\\presentation with alt text for objects.pptx";
 
             // When
@@ -49,7 +49,7 @@ namespace AccessibilityReportForDocuments.tests.core.scanners.presentationScanne
         public void ScanPresentationShapeAltTextScannerErrorsFound()
         {
             // Given
-            PresentationShapeAltTextScanner scanner = new(Context.ContextLogger());
+            ShapeAltTextScanner scanner = new(Context.ContextLogger());
             string document = "C:\\Users\\v-karladal\\source\\repos\\AccessibilityReportForDocumentsTests\\mocks\\presentation with no alt text for objects.pptx";
 
             // When
@@ -66,7 +66,7 @@ namespace AccessibilityReportForDocuments.tests.core.scanners.presentationScanne
         public void ScanPresentationShapeAltTextScannerNoErrorsFound()
         {
             // Given
-            PresentationShapeAltTextScanner scanner = new(Context.ContextLogger());
+            ShapeAltTextScanner scanner = new(Context.ContextLogger());
             string document = "C:\\Users\\v-karladal\\source\\repos\\AccessibilityReportForDocumentsTests\\mocks\\presentation with alt text for objects.pptx";
 
             // When
@@ -83,7 +83,7 @@ namespace AccessibilityReportForDocuments.tests.core.scanners.presentationScanne
         public void ScanPresentationGraphicAltTextScannerAltTextScannerErrorsFound()
         {
             // Given
-            PresentationGraphicAltTextScanner scanner = new(Context.ContextLogger());
+            GraphicAltTextScanner scanner = new(Context.ContextLogger());
             string document = "C:\\Users\\v-karladal\\source\\repos\\AccessibilityReportForDocumentsTests\\mocks\\presentation with no alt text for objects.pptx";
 
             // When
@@ -102,7 +102,7 @@ namespace AccessibilityReportForDocuments.tests.core.scanners.presentationScanne
         public void ScanPresentationGraphicAltTextScannerAltTextScannerNoErrorsFound()
         {
             // Given
-            PresentationGraphicAltTextScanner scanner = new(Context.ContextLogger());
+            GraphicAltTextScanner scanner = new(Context.ContextLogger());
             string document = "C:\\Users\\v-karladal\\source\\repos\\AccessibilityReportForDocumentsTests\\mocks\\presentation with alt text for objects.pptx";
 
             // When
