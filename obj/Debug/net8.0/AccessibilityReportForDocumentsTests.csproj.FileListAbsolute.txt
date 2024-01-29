@@ -158,3 +158,4 @@ C:\Users\v-karladal\source\repos\AccessibilityReportForDocumentsTests\bin\Debug\
 C:\Users\v-karladal\source\repos\AccessibilityReportForDocumentsTests\bin\Debug\net8.0\Microsoft.WindowsAzure.Storage.dll
 C:\Users\v-karladal\source\repos\AccessibilityReportForDocumentsTests\bin\Debug\net8.0\AccessibilityReportForDocuments.dll
 C:\Users\v-karladal\source\repos\AccessibilityReportForDocumentsTests\bin\Debug\net8.0\AccessibilityReportForDocuments.pdb
+C:\Users\v-karladal\source\repos\AccessibilityReportForDocumentsTests\obj\Debug\net8.0\AccessibilityReportForDocumentsTests.sourcelink.json
