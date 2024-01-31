@@ -1752,8 +1752,7 @@
       "AccessibilityReportForDocuments/1.0.0": {
         "dependencies": {
           "DocumentFormat.OpenXml": "3.0.1",
-          "Microsoft.NET.Sdk.Functions": "4.2.0",
-          "xunit": "2.6.6"
+          "Microsoft.NET.Sdk.Functions": "4.2.0"
         },
         "runtime": {
           "AccessibilityReportForDocuments.dll": {}

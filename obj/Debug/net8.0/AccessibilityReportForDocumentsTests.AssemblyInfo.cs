@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AccessibilityReportForDocumentsTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed2b024432a7f6b7798964b98500379aecd5e26a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01a8c943db3d2eba93ca60131aaf534d6e219343")]
 [assembly: System.Reflection.AssemblyProductAttribute("AccessibilityReportForDocumentsTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AccessibilityReportForDocumentsTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

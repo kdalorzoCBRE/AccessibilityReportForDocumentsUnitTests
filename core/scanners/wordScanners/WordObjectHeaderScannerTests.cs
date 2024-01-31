@@ -3,11 +3,18 @@ using AccessibilityReportForDocuments.core.scanners.wordScanners;
 using AccessibilityReportForDocumentsTests;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Wordprocessing;
+using Xunit.Abstractions;
 
 namespace AccessibilityReportForDocuments.tests.core.scanners.presentationScanners
 {
     public class WordObjectHeaderScannerTests
     {
+        private readonly ITestOutputHelper output;
+
+        public WordObjectHeaderScannerTests(ITestOutputHelper output)
+        {
+            this.output = output;
+        }
 
         [Fact]
         public void ScanWordTableHeaderScannerErrorsFound()
@@ -24,9 +31,10 @@ namespace AccessibilityReportForDocuments.tests.core.scanners.presentationScanne
             Body body = wordDocument.MainDocumentPart.Document.Body;
             List<AccessibilityError> result = scanner.Scan(wordDocument, body);
 
-            // Then            
+            // Then
+            this.output.WriteLine(output.ToString());
             Assert.Single(result);
             Assert.Equal("Table 0480", result[0].ObjectName);
-        }       
+        }
     }
 }
